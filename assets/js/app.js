@@ -70,13 +70,13 @@
 //     button[i].addEventListener('click', myFunction, false);
 // }
 
-var theParent = document.querySelector("button");
-theParent.addEventListener("click", doSomething, false);
+// var theParent = document.querySelector("button");
+// theParent.addEventListener("click", doSomething, false);
  
-function doSomething(e) {
-    if (e.target !== e.currentTarget) {
-        var clickedItem = e.target.id;
-        alert("Hello");
-    }
-    e.stopPropagation();
-}
+// function doSomething(e) {
+//     if (e.target !== e.currentTarget) {
+//         var clickedItem = e.target.id;
+//         alert("Hello");
+//     }
+//     e.stopPropagation();
+// }
